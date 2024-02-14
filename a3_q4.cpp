@@ -15,9 +15,7 @@ int main(){
     }
     int n=sizeof(arr)/sizeof(arr[0]);
     sort(arr,arr+n);
-    // int sorted[size]=sort(arr,arr+n);
     for(int i=0;i<size;i++){
-    //     sorted[i]=sort(arr,arr+n)[i];
     if(arr[i]==array[i]){
         cout<<"Givean array is a sorted array";
     }
